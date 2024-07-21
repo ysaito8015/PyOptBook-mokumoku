@@ -1,0 +1,19 @@
+[project]
+name = "pyoptbook-mokumoku"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Yusuke_Saito"}
+]
+dependencies = [
+    "pulp>=2.9.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ruff>=0.5.4",
+]
+
